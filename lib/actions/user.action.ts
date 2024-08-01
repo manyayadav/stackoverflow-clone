@@ -14,7 +14,6 @@ import { assignBadges } from "@/lib/utils";
 
 import type {
   CreateUserParams,
-  DeleteUserParams,
   GetAllUsersParams,
   GetSavedQuestionParams,
   GetUserByIdParams,
