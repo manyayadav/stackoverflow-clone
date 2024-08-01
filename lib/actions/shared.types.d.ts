@@ -81,8 +81,6 @@ export interface UpdateUserParams extends ClerkId, Path {
   updateData: Partial<IUser>;
 }
 
-export interface DeleteUserParams extends ClerkId {}
-
 export interface GetUserStatsParams
   extends UserId,
     OptionalPage,
